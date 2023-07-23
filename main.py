@@ -30,9 +30,9 @@ def breast_cancer_prediction(input_data):
     print(prediction)
     
     if (prediction[0] == 0):
-        print('The Breast Cancer is BENIGN')
+        return ('The Breast Cancer is BENIGN')
     else:
-        print ('The Breast Cancer is MALIGNANT')
+        return ('The Breast Cancer is MALIGNANT')
     
     
     
